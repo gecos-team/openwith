@@ -1,0 +1,21 @@
+THE PROBLEM
+
+When you want to open a file with a program of your choice, you usually
+right clicked on the icon in nautilus, browsed the filesystem and choose
+your favourite application.
+
+That is not possible anymore with gnome3!
+
+
+
+THE (quick & dirty but working) SOLUTION
+
+Copy "openwith" to /usr/local/bin/ and give it execution permissions
+
+Copy "openwith.desktop" to  /usr/share/applications/ or to your home folder, into
+~/.local/share/applications
+
+Now open Nautilus, right click on any file, and select "open with another
+application" and "Show other applications". From the long list, choose this
+new option: "a program of your choice..."
+

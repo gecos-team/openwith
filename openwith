@@ -1,0 +1,11 @@
+#/bin/sh
+
+DEFAULT="/usr/bin/"
+
+FILE=`zenity --file-selection  --filename=$DEFAULT --title="Open with..."`
+
+case $? in
+         0)
+                "$FILE" "$1";;
+
+esac

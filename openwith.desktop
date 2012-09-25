@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=application-default-icon
+Name=a program of your choice...
+Name[es_ES]=un programa a elegir...
+Comment=Open a file with a selected program
+Comment[es_ES]=Abre un archivo con el programa seleccionado
+Exec=/usr/local/bin/openwith %f
