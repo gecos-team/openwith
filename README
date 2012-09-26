@@ -10,12 +10,18 @@ That is not possible anymore with gnome3!
 
 THE (quick & dirty but working) SOLUTION
 
+Simply install the Debian package. Tested in Ubuntu 11.10, Guadalinex v8 and
+GECOS v1.
+
+Or:
+
 Copy "openwith" to /usr/bin/ and give it execution permissions
 
 Copy "openwith.desktop" to  /usr/share/applications/ or to your home folder, into
 ~/.local/share/applications
 
-Now open Nautilus, right click on any file, and select "open with another
+
+Finally, open Nautilus, right click on any file, and select "open with another
 application" and "Show other applications". From the long list, choose this
 new option: "a program of your choice..."
 
