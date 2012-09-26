@@ -10,7 +10,7 @@ That is not possible anymore with gnome3!
 
 THE (quick & dirty but working) SOLUTION
 
-Copy "openwith" to /usr/local/bin/ and give it execution permissions
+Copy "openwith" to /usr/bin/ and give it execution permissions
 
 Copy "openwith.desktop" to  /usr/share/applications/ or to your home folder, into
 ~/.local/share/applications
